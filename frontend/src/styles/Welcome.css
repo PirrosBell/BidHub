@@ -1,0 +1,14 @@
+.welcome h2 {
+  margin: 8rem;
+  text-align: center;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.welcome h1 {
+  border-radius: 15px;
+  background-color: #E6E6FA;
+  padding: 2rem 3rem; 
+  width: 80%;
+  margin: 0 auto;
+}

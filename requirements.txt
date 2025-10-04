@@ -1,0 +1,15 @@
+Django
+djangorestframework
+djangorestframework-simplejwt
+django-countries
+django-filter
+django-cron
+django-cors-headers
+numpy
+Pillow
+drf-nested-routers
+scikit-learn
+drf-nested-routers
+psycopg2-binary>=2.9
+django-apscheduler
+faker

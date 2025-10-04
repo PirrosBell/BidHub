@@ -1,0 +1,304 @@
+/* NotificationPopup.css */
+
+.notification-popup {
+  position: fixed;
+  min-width: 300px;
+  max-width: 400px;
+  z-index: 9999;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Position variants */
+.notification-popup.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.notification-popup.bottom-left {
+  bottom: 20px;
+  left: 20px;
+  transform: translateX(-100%);
+}
+
+.notification-popup.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+.notification-popup.top-left {
+  top: 20px;
+  left: 20px;
+  transform: translateX(-100%);
+}
+
+.notification-popup.top-center {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+}
+
+.notification-popup.bottom-center {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+/* Visibility states */
+.notification-popup.visible {
+  transform: translateX(0) translateY(0);
+  opacity: 1;
+}
+
+.notification-popup.visible.top-center {
+  transform: translateX(-50%) translateY(0);
+}
+
+.notification-popup.visible.bottom-center {
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Type variants */
+.notification-popup.error {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.9), rgba(220, 38, 38, 0.9));
+  color: white;
+}
+
+.notification-popup.success {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.9), rgba(22, 163, 74, 0.9));
+  color: white;
+}
+
+.notification-popup.warning {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.9), rgba(217, 119, 6, 0.9));
+  color: white;
+}
+
+.notification-popup.info {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(37, 99, 235, 0.9));
+  color: white;
+}
+
+/* Content layout */
+.notification-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  position: relative;
+}
+
+.notification-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.notification-message {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.notification-action-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.notification-action-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.notification-close-btn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-close-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Progress bar for auto-hide */
+.notification-progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  transform-origin: left;
+  animation: shrink linear forwards;
+}
+
+@keyframes shrink {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+/* Hover effects */
+.notification-popup:hover .notification-progress-bar {
+  animation-play-state: paused;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .notification-popup {
+    left: 10px !important;
+    right: 10px !important;
+    max-width: none;
+    min-width: auto;
+    transform: translateY(100%) !important;
+  }
+  
+  .notification-popup.visible {
+    transform: translateY(0) !important;
+  }
+  
+  .notification-popup.bottom-right,
+  .notification-popup.bottom-left,
+  .notification-popup.bottom-center {
+    bottom: 10px;
+  }
+  
+  .notification-popup.top-right,
+  .notification-popup.top-left,
+  .notification-popup.top-center {
+    top: 10px;
+    transform: translateY(-100%) !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .notification-popup {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ----------------------------- */
+/* Messages confirm modal styles */
+/* ----------------------------- */
+
+.messages-confirm-overlay {
+  position: fixed; /* changed from absolute to fixed to cover entire viewport */
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* slightly larger padding for full-screen */
+  z-index: 2000; /* ensure it sits above dropdown/chat */
+}
+
+.messages-confirm-dialog {
+  background: #fff;
+  padding: 16px 18px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 340px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 1px solid #e2e8f0;
+  animation: scaleIn 0.16s ease;
+  position: relative; /* ensure proper stacking inside overlay */
+  z-index: 2001; /* above overlay backdrop */
+}
+
+@keyframes scaleIn {
+  from { transform: scale(.94); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.messages-confirm-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.messages-confirm-text {
+  font-size: 13px;
+  color: #334155;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.messages-confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.messages-confirm-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+  transition: background .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+
+.messages-confirm-cancel {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+}
+
+.messages-confirm-cancel:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.messages-confirm-delete {
+  background: #dc2626;
+  border: none;
+  color: #fff;
+}
+
+.messages-confirm-delete:hover:not(:disabled) {
+  background: #b91c1c;
+}
+
+.messages-confirm-btn:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,69 @@
+.wait-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.wait-card {
+  width: 500px;
+  max-width: 95vw;
+  background: #fff;
+  padding: 32px 32px 28px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+  text-align: center;
+}
+
+.wait-card h1 {
+  font-size: 22px;
+  margin: 0 0 12px;
+  color: #333;
+}
+
+.wait-message {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 18px;
+  color: #555;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 18px;
+  padding: 10px 14px;
+  background: #f5faff;
+  border: 1px solid #d9edf7;
+  border-radius: 8px;
+}
+
+.spinner {
+  width: 22px;
+  height: 22px;
+  border: 3px solid #c6e3f5;
+  border-top-color: #007acc;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+.status-text {
+  font-size: 14px;
+  color: #0b486b;
+  font-weight: 500;
+}
+
+.hint {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+  line-height: 1.4;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

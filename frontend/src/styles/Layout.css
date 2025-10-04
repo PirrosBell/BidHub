@@ -1,0 +1,264 @@
+html {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  height: auto; 
+  width: auto; 
+  min-height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#root {
+  min-height: 100vh;
+  display: flex; /* Make root a flex container */
+  flex-direction: column;
+}
+
+/* Layout container - ensures footer stays at bottom and fills viewport */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+
+.left-navbar {
+  display: flex;
+  align-items: center;
+  gap: 3rem
+}
+
+/* Navigation styles */
+.right-navbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Link styling */
+
+header button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  border-bottom: 2px black;
+}
+
+.separator {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+
+header a:hover{
+  transform: translateY(-2px)
+}
+header button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Button specific styles (for NavigateButton) */
+header button {
+  background: transparent;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* Specific styles for nav buttons (like logout) */
+.nav-button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.nav-button:active {
+  transform: translateY(0);
+}
+
+header button:active {
+  transform: translateY(0);
+}
+
+/* Main content area */
+main {
+  flex: 1;
+  padding: 2rem;
+  width: 100%; /* Remove max-width constraint */
+  min-height: 0; /* Allows flex item to shrink */
+  margin: 0; /* Remove auto margins */
+  background-color: #F5F5F5;
+  border-radius: 12px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #5dade2;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  footer {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  header a,
+  header button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .nav-links {
+    gap: 0.5rem;
+  }
+}
+
+.user-profile {
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  color: white;
+  font-weight: 500;
+  border-radius: 1px;
+  border-bottom: 2px solid transparent ;
+  transition: border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.username:hover{
+  border-bottom-color: white;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+.right-navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+

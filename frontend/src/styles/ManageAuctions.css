@@ -1,0 +1,29 @@
+
+.above-line-container{
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 28px;
+}
+
+.create-auction-button{
+  background-color: #667eea;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: background 0.5s;
+}
+
+.create-auction-button:hover{
+  background-color: #764ba2 ;
+}
+

@@ -1,0 +1,1221 @@
+Starting background scheduler...
+Watching for file changes with StatReloader
+Starting background scheduler...
+Watching for file changes with StatReloader
+Starting background scheduler...
+Watching for file changes with StatReloader
+Unauthorized: /api/auth/profile/
+Unauthorized: /api/auth/profile/
+Internal Server Error: /api/token/refresh/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 46, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 447, in run_validation
+    value = self.validate(value)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 116, in validate
+    user := get_user_model().objects.get(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+Internal Server Error: /api/token/refresh/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 46, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 447, in run_validation
+    value = self.validate(value)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 116, in validate
+    user := get_user_model().objects.get(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+Internal Server Error: /api/auth/profile/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 516, in __get__
+    rel_obj = self.related.get_cached_value(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/fields/mixins.py", line 37, in get_cached_value
+    return instance._state.fields_cache[self.cache_name]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: authentication_userprofile
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 256, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py", line 523, in __get__
+    rel_obj = self.get_queryset(instance=instance).get(**filter_args)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 629, in get
+    num = len(clone)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 366, in __len__
+    self._fetch_all()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: authentication_userprofile
+Internal Server Error: /api/winning-pairs/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_seller
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 538, in get_queryset
+    seller = Seller.objects.get(userID=self.request.user)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 629, in get
+    num = len(clone)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 366, in __len__
+    self._fetch_all()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_seller
+Unauthorized: /api/auth/profile/
+Unauthorized: /api/auth/profile/
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/items/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_item
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 136, in list
+    page = self.paginate_queryset(items)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_item
+Internal Server Error: /api/items/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_item
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 136, in list
+    page = self.paginate_queryset(items)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_item
+Internal Server Error: /api/items/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_item
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 136, in list
+    page = self.paginate_queryset(items)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_item
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/categories/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_category
+Internal Server Error: /api/items/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_item
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 136, in list
+    page = self.paginate_queryset(items)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_item
+Internal Server Error: /api/items/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_item
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 136, in list
+    page = self.paginate_queryset(items)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_item
+Internal Server Error: /api/items/
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: bids_item
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/duck/test_project_auction/auction_backend/auction/bids/views.py", line 136, in list
+    page = self.paginate_queryset(items)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/rest_framework/pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 89, in page
+    number = self.validate_number(number)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/core/paginator.py", line 110, in count
+    return c()
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/query.py", line 604, in count
+    return self.query.get_count(using=self.db)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/duck/test_project_auction/auction_backend/venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: bids_item
+Starting background scheduler...
+Watching for file changes with StatReloader
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+Unauthorized: /api/auth/login/
+Starting background scheduler...
+Watching for file changes with StatReloader
+Unauthorized: /api/auth/login/
+Closing items at: 2025-09-28 15:35:46.043078+00:00
+Publishing auctions at: 2025-09-28 15:35:46.044704+00:00
+Publishing auctions at: 2025-09-28 15:36:41.849984+00:00
+Closing items at: 2025-09-28 15:36:44.188145+00:00
+Publishing auctions at: 2025-09-28 15:37:37.628835+00:00
+Closing items at: 2025-09-28 15:37:39.974095+00:00
+Publishing auctions at: 2025-09-28 15:38:33.365308+00:00
+Closing items at: 2025-09-28 15:38:35.704543+00:00
+Publishing auctions at: 2025-09-28 15:39:29.134668+00:00
+Closing items at: 2025-09-28 15:39:31.477925+00:00
+Publishing auctions at: 2025-09-28 15:40:24.840397+00:00
+Closing items at: 2025-09-28 15:40:27.185252+00:00
+Publishing auctions at: 2025-09-28 15:41:20.569650+00:00
+Closing items at: 2025-09-28 15:41:22.915304+00:00
+Publishing auctions at: 2025-09-28 15:42:18.455276+00:00
+Closing items at: 2025-09-28 15:42:18.678273+00:00
+Publishing auctions at: 2025-09-28 15:43:14.212523+00:00
+Closing items at: 2025-09-28 15:43:18.635027+00:00
+Publishing auctions at: 2025-09-28 15:44:09.953816+00:00
+Closing items at: 2025-09-28 15:44:14.378041+00:00
+Publishing auctions at: 2025-09-28 15:45:05.640121+00:00
+Closing items at: 2025-09-28 15:45:10.066086+00:00
+Publishing auctions at: 2025-09-28 15:46:01.392310+00:00
+Closing items at: 2025-09-28 15:46:05.796764+00:00
+Publishing auctions at: 2025-09-28 15:46:57.105926+00:00
+Closing items at: 2025-09-28 15:47:01.498316+00:00
+Publishing auctions at: 2025-09-28 15:47:52.830313+00:00
+Closing items at: 2025-09-28 15:47:57.242707+00:00
+Publishing auctions at: 2025-09-28 15:48:48.518992+00:00
+Closing items at: 2025-09-28 15:48:52.969941+00:00
+Publishing auctions at: 2025-09-28 15:49:46.364931+00:00
+Closing items at: 2025-09-28 15:49:48.719769+00:00
+Publishing auctions at: 2025-09-28 15:50:42.102795+00:00
+Closing items at: 2025-09-28 15:50:46.516959+00:00
+Publishing auctions at: 2025-09-28 15:51:37.840193+00:00
+Closing items at: 2025-09-28 15:51:42.241806+00:00
+Publishing auctions at: 2025-09-28 15:52:33.543328+00:00
+Closing items at: 2025-09-28 15:52:38.003544+00:00
+Publishing auctions at: 2025-09-28 15:53:29.215764+00:00
+Closing items at: 2025-09-28 15:53:33.689274+00:00
+Publishing auctions at: 2025-09-28 15:54:24.845071+00:00
+Closing items at: 2025-09-28 15:54:29.316943+00:00
+Publishing auctions at: 2025-09-28 15:55:20.605995+00:00
+Closing items at: 2025-09-28 15:55:25.085502+00:00
+Publishing auctions at: 2025-09-28 15:56:18.431831+00:00
+Closing items at: 2025-09-28 15:56:20.798830+00:00
+Publishing auctions at: 2025-09-28 15:57:14.161476+00:00
+Closing items at: 2025-09-28 15:57:18.602605+00:00
+Publishing auctions at: 2025-09-28 15:58:09.850210+00:00
+Closing items at: 2025-09-28 15:58:14.286221+00:00
+Publishing auctions at: 2025-09-28 15:59:05.615628+00:00
+Closing items at: 2025-09-28 15:59:10.050331+00:00
