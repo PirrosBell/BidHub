@@ -8,11 +8,11 @@ Inside the project_auction_2000141_19000109 folder, run the setup.sh file (give 
 Open two separate terminals — one for running the backend and one for the frontend.
 
 Backend:
-a. source venv/bin/activate
-b. cd auction/
-c. python manage.py runserver
+  - source venv/bin/activate
+  - cd auction/
+  - python manage.py runserver
 
 Frontend:
-a. cd frontend/
-b. npm run dev
-c. In the console that appears, press o and then Enter
+  - cd frontend/
+  - npm run dev
+  - In the console that appears, press o and then Enter
